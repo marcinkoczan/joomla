@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+
+<layout title="COM_FLEXICONTACT_VIEW_TITLE_ORIGINAL">
+	<message>
+	</message>
+</layout>
+
+<state>
+	<name>COM_FLEXICONTACT_VIEW_TITLE_ORIGINAL</name>
+	
+	<description></description>
+
+<config><fields name="params"><fieldset name="basic">
+	<field name="toPrimary" type="text" size="40" default="" label="COM_FLEXICONTACT_V_EMAIL_TO" description="" />
+	<field name="ccAddress" type="text" size="40" default="" label="COM_FLEXICONTACT_V_EMAIL_CC" description="" />
+	<field name="bccAddress" type="text" size="40" default="" label="COM_FLEXICONTACT_V_EMAIL_BCC" description="" />
+	
+	<field name="@spacer" type="spacer" default="" label="" description="" />
+
+	<field name="@spacer" type="spacer" default="" label="" description="" />
+
+	<field name="num_images" type="text" size="5" default="0" label="COM_FLEXICONTACT_V_CAPTCHA_NUMBER" description="COM_FLEXICONTACT_V_CAPTCHA_DESC" />
+	<field name="magic_word" type="text" size="30" default="" label="COM_FLEXICONTACT_V_MAGIC_WORD" description="COM_FLEXICONTACT_V_MAGIC_WORD_DESC" />
+
+	<field name="page_hdr" type="text" size="40" default="" label="COM_FLEXICONTACT_V_PAGE_TITLE" description="COM_FLEXICONTACT_V_PAGE_TITLE_DESC" />
+</fieldset></fields></config>
+
+</state>
+
+</metadata>

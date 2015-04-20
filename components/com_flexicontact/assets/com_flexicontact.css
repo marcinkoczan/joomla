@@ -1,0 +1,48 @@
+/* Flexicontact CSS */
+
+/* Common */
+
+.fc_page { }
+.fc_form { }
+
+div.fc_images      {padding-top:0.5em;}
+div.fc_image_inner {text-align: center;}
+.fc_inactive       {border:2px solid transparent;}
+.fc_active         {border:2px solid red; border-radius:5px;}
+
+form.fc_form input, form.fc_form textarea {width: auto !important;}
+form.fc_form input[type="checkbox"]       {vertical-align:top;}
+
+input.fc_button    {background-color:#0079C1; border:1px solid #2F5BB7; border-radius:3px;
+                    width:auto; min-width:65px; margin:2px 2px 2px 5px; padding:5px; text-shadow:0 1px rgba(0, 0, 0, 0.1); text-align:center;
+                    font-size:1em; font-weight:bold; color:white !important; cursor:pointer;}
+input.fc_button:hover    {background-color:#0285D2; }
+input.fc_button:disabled {opacity:0.5; border:none; cursor:default;}
+
+span.fc_error {font-size:small; color:red; margin-left:5px;}
+
+/* Responsive view */
+
+div.fc_line                   {clear:left; padding-top:0.5em;}
+div.fc_line label.fc_left     {display:inline-block; text-align:right; vertical-align:middle; width:12em; max-width:20%; margin-right:1em;}
+div.fc_line label.fc_right    {display:inline-block; text-align:left;  vertical-align:middle; }
+div.fc_line label.fc_textarea {vertical-align:top; }
+
+@media screen and (max-width: 800px) 
+{
+    div.fc_line label.fc_left {display:block; text-align:left; width:auto; max-width:90%;}
+    span.fc_error             {display:block; }
+}
+
+div.fc_line input    {max-width:90%;}
+div.fc_line textarea {max-width:95%;}
+
+/* Table view */
+
+.fc_table              {border:none !important; padding: 2px; width:100% }
+.fc_table tr           {border:none  !important; }
+.fc_table td           {border:none  !important; padding: 3px 0 3px 0;}
+.fc_table td.fc_prompt {text-align:right; vertical-align:middle; width:20%; padding-right:10px;}
+.fc_table td.fc_field  {text-align:left; }
+
+

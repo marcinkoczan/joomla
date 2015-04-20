@@ -1,0 +1,29 @@
+.icon-48-flexicontact { background-image:url(flexicontact-48.png); }
+.icon-flexicontact    { background:url(lad_20.png) no-repeat; 
+                        vertical-align:middle; height:26px !important; width:32px !important; margin-right:4px !important;}
+
+.flexicontact_error   {color:red; font-size:13px;}
+.icon-32-download     { background-image:url(export.png); }
+.fc_button            {background-color:#ECE9D8; border:2px outset #ECE9D8;}
+.fc_button:hover      {background-color:#CFCBBB; border:2px outset #ECE9D8;}
+
+div.fc_help_fcp       {font-size:200%; font-weight:bold; color:#C00000; margin:10px; padding:10px;}
+div.fc_help_fcp span  {line-height:200%;}
+
+/* Joomla 3.x fixes */
+
+table.fc_table        {border-collapse:separate; border-spacing:2px;}
+.fc_table td          {padding-bottom:4px; white-space:nowrap;}
+.fc_table td.prompt   {text-align:right; padding-right:10px; vertical-align:top;}
+
+input, textarea, select, label {margin-bottom:0 !important; width:auto !important;}
+
+fieldset.fc_panel        {margin:10px; border:1px #CCC solid; padding:5px; text-align:left; font-size:12px;}
+fieldset.fc_panel legend {width:auto; border:0; margin:0; padding-left:5px; padding-right:5px; }
+
+/* Help and Support page */
+
+table.help_support         {border-collapse:collapse;border:1px solid #CECACA; border-spacing:0;}
+table.help_support tr      {border:1px solid #CECACA; background-color:white;   padding:5px;}
+table.help_support tr.row1 {border:1px solid #CECACA; background-color:#F0F0EE; padding:5px;}
+table.help_support td      {padding:5px 15px 5px 15px; vertical-align:top;}

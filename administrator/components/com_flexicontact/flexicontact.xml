@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="2.5.0" method="upgrade">
+<name>FlexiContact</name>
+<creationDate>2 April 2015</creationDate>
+<author>Les Arbres Design</author>
+<copyright>Les Arbres Design 2009-2015</copyright>
+<license>GNU/GPL</license>
+<authorUrl>extensions.lesarbresdesign.info</authorUrl>
+<version>8.06.01</version>
+<description>The flexible contact page that's easy to setup</description>
+
+<scriptfile>install.php</scriptfile>
+
+<files folder="site">
+	<filename>flexicontact.php</filename>
+	<filename>controller.php</filename>
+	<filename>index.html</filename>
+	<folder>assets/</folder>
+	<folder>images/</folder>
+	<folder>models/</folder>
+	<folder>views/</folder>
+</files>
+
+<languages folder="site/language">
+	<language tag="af-ZA">af-ZA.com_flexicontact.ini</language>
+	<language tag="bs-BA">bs-BA.com_flexicontact.ini</language>
+	<language tag="ca-ES">ca-ES.com_flexicontact.ini</language>
+	<language tag="cs-CZ">cs-CZ.com_flexicontact.ini</language>
+	<language tag="da-DK">da-DK.com_flexicontact.ini</language>
+	<language tag="de-DE">de-DE.com_flexicontact.ini</language>
+	<language tag="el-GR">el-GR.com_flexicontact.ini</language>
+	<language tag="en-GB">en-GB.com_flexicontact.ini</language>
+	<language tag="es-ES">es-ES.com_flexicontact.ini</language>
+	<language tag="fa-IR">fa-IR.com_flexicontact.ini</language>
+	<language tag="fi-FI">fi-FI.com_flexicontact.ini</language>
+	<language tag="fr-FR">fr-FR.com_flexicontact.ini</language>
+	<language tag="he-IL">he-IL.com_flexicontact.ini</language>
+	<language tag="hr-HR">hr-HR.com_flexicontact.ini</language>
+	<language tag="hu-HU">hu-HU.com_flexicontact.ini</language>
+	<language tag="it-IT">it-IT.com_flexicontact.ini</language>
+	<language tag="ja-JP">ja-JP.com_flexicontact.ini</language>
+	<language tag="lt-LT">lt-LT.com_flexicontact.ini</language>
+	<language tag="nb-NO">nb-NO.com_flexicontact.ini</language>
+	<language tag="nl-NL">nl-NL.com_flexicontact.ini</language>
+	<language tag="pl-PL">pl-PL.com_flexicontact.ini</language>
+	<language tag="pt-BR">pt-BR.com_flexicontact.ini</language>
+	<language tag="pt-PT">pt-PT.com_flexicontact.ini</language>
+	<language tag="ro-RO">ro-RO.com_flexicontact.ini</language>
+	<language tag="ru-RU">ru-RU.com_flexicontact.ini</language>
+	<language tag="sk-SK">sk-SK.com_flexicontact.ini</language>
+	<language tag="sl-SI">sl-SI.com_flexicontact.ini</language>
+	<language tag="sv-SE">sv-SE.com_flexicontact.ini</language>
+	<language tag="tr-TR">tr-TR.com_flexicontact.ini</language>
+	<language tag="uk-UA">uk-UA.com_flexicontact.ini</language>
+	<language tag="zh-CN">zh-CN.com_flexicontact.ini</language>
+</languages>
+  
+<administration>
+	<menu img="../administrator/components/com_flexicontact/assets/flexicontact-16.png">FLEXICONTACT</menu>
+	<submenu>
+		<menu img="../administrator/components/com_flexicontact/assets/m_config.gif" task="config">COM_FLEXICONTACT_CONFIGURATION</menu>
+		<menu img="../administrator/components/com_flexicontact/assets/m_images.gif" task="config_images">COM_FLEXICONTACT_CAPTCHA_IMAGES</menu>
+		<menu img="../administrator/components/com_flexicontact/assets/m_log.gif" task="log_list">COM_FLEXICONTACT_LOG</menu>
+		<menu img="../administrator/components/com_flexicontact/assets/info-16.png" task="help">COM_FLEXICONTACT_HELP_AND_SUPPORT</menu>
+	</submenu>
+
+	<files folder="admin">
+		<filename>flexicontact.php</filename>
+		<filename>controller.php</filename>
+		<filename>index.html</filename>
+		<folder>assets</folder>
+		<folder>helpers</folder>
+		<folder>models</folder>
+		<folder>views</folder>
+ 	</files>
+	
+	<languages folder="admin/language">
+		<language tag="bs-BA">bs-BA.com_flexicontact.ini</language>
+		<language tag="bs-BA">bs-BA.com_flexicontact.sys.ini</language>
+		<language tag="ca-ES">ca-ES.com_flexicontact.ini</language>
+		<language tag="ca-ES">ca-ES.com_flexicontact.sys.ini</language>
+		<language tag="da-DK">da-DK.com_flexicontact.ini</language>
+		<language tag="da-DK">da-DK.com_flexicontact.sys.ini</language>
+		<language tag="de-DE">de-DE.com_flexicontact.ini</language>
+		<language tag="de-DE">de-DE.com_flexicontact.sys.ini</language>
+		<language tag="en-GB">en-GB.com_flexicontact.ini</language>
+		<language tag="en-GB">en-GB.com_flexicontact.sys.ini</language>
+		<language tag="fa-IR">fa-IR.com_flexicontact.ini</language>
+		<language tag="fa-IR">fa-IR.com_flexicontact.sys.ini</language>
+		<language tag="fr-FR">fr-FR.com_flexicontact.ini</language>
+		<language tag="fr-FR">fr-FR.com_flexicontact.sys.ini</language>
+		<language tag="hr-HR">hr-HR.com_flexicontact.ini</language>
+		<language tag="hr-HR">hr-HR.com_flexicontact.sys.ini</language>
+		<language tag="it-IT">it-IT.com_flexicontact.ini</language>
+		<language tag="it-IT">it-IT.com_flexicontact.sys.ini</language>
+		<language tag="nl-NL">nl-NL.com_flexicontact.ini</language>
+		<language tag="nl-NL">nl-NL.com_flexicontact.sys.ini</language>
+		<language tag="pl-PL">pl-PL.com_flexicontact.ini</language>
+		<language tag="pl-PL">pl-PL.com_flexicontact.sys.ini</language>
+		<language tag="pt-PT">pt-PT.com_flexicontact.sys.ini</language>
+		<language tag="ru-RU">ru-RU.com_flexicontact.ini</language>
+		<language tag="ru-RU">ru-RU.com_flexicontact.sys.ini</language>
+		<language tag="tr-TR">tr-TR.com_flexicontact.ini</language>
+		<language tag="tr-TR">tr-TR.com_flexicontact.sys.ini</language>
+	</languages>
+
+</administration>
+
+</extension>
